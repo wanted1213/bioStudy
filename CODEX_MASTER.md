@@ -1,5 +1,11 @@
 # CODEX_MASTER.md — bioStudy
 
+이 문서는 Codex가 매 Phase 시작 시 가장 먼저 읽는 공통 규칙이다. 세부 제품 요구사항은
+[`docs/product-spec.md`](docs/product-spec.md), Phase별 실행 지시는
+[`docs/codex-phase-prompts.md`](docs/codex-phase-prompts.md), 결정의 배경은
+[`docs/decisions.md`](docs/decisions.md)를 따른다. 충돌 시 공통 제약은 이 문서, 제품 세부사항은
+제품 명세, 해당 Phase의 작업 범위는 Phase 프롬프트 순으로 해석하고 충돌을 임의로 숨기지 않는다.
+
 ## 1. 프로젝트 목적
 
 사용자가 웹사이트에 접속하면 별도의 선택 없이 오늘의 생명과학 학습을 시작하거나 이어가고, 약 15분 동안 `일일 복습 → 오늘의 학습 → 이해 확인 → 직접 설명 → 완료`를 수행하는 개인용 단일 사용자 웹서비스다.
@@ -8,7 +14,7 @@
 
 - GitHub: `https://github.com/wanted1213/bioStudy.git`
 - 기본 브랜치: `main`
-- 배포: Vercel, GitHub 연동 자동 배포
+- 배포: Phase 1 구현 완료 후 Vercel에 연결하며, 이후 GitHub 연동 자동 배포
 - 시간대: `Asia/Seoul`
 - Phase 1부터 모든 Phase에서 production build 성공 필수
 
@@ -61,7 +67,7 @@
 - Phase 2: JSON 콘텐츠 스키마·로더·검증
 - Phase 3: 여러 날 세션·진도·`/progress`
 - Phase 4: 간격 반복 복습 엔진
-- Phase 5A: 12개 모듈·120개 shell·승인 리포트
+- Phase 5A: 12개 모듈·120개 DRAFT shell·승인 리포트(자동 승인 없음)
 - Phase 5B: 사람 검수 기반 실제 콘텐츠 투입(모듈 단위 별도 작업)
 - Phase 6: 선택적 AI 직접 설명 피드백
 - Phase 7: 실제 사용 기반 개선·백업·가져오기

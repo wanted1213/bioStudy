@@ -14,10 +14,11 @@
 
 ## 권장 저장소 문서 배치
 
-- `CODEX_MASTER.md`: 프로젝트 전체 고정 조건과 제품 요구사항
-- `docs/phase-plan.md`: Phase 0~7 순서와 완료 조건
-- `docs/content-authoring-guide.md`: 콘텐츠 작성 규칙
-- `docs/content-review-checklist.md`: 과학 콘텐츠 사람 검수 기준
+- `CODEX_MASTER.md`: 매 Phase 시작 시 가장 먼저 읽는 공통 규칙
+- `docs/product-spec.md`: 제품 요구사항, 사용자 흐름, 화면, 데이터, 콘텐츠 구조의 상세 기준
+- `docs/codex-phase-prompts.md`: Phase 0~7 실행 프롬프트(이 문서)
+- `README.md`: 사람이 빠르게 이해하기 위한 프로젝트 소개
+- `docs/decisions.md`: 주요 제품·기술 결정과 이유
 
 ---
 
